@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 html, body {
@@ -90,6 +90,54 @@ header nav {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 2% 0;
+}
+
+.top-banner-about {
+    background-image: url("../img/jumbo-about.png");
+    width: 100%;
+    height: 25vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2% 0;
+}
+
+.about-p {
+    padding: 2%;
+    margin: 2%;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 2%;
+    margin: 2%;
+    width: 46%;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card p {
+    margin-bottom: 4%;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2% 6%;
+    margin: 3% 0;
+    color: black;
+}
+
+.container .about-p, .card {
+    border-bottom: 1px dashed black;
 }
 
 .top-content {
@@ -185,6 +233,10 @@ header nav {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.closing-p {
+    margin: 2%
 }
 
 footer {
