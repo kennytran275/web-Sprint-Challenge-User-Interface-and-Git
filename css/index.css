@@ -75,12 +75,20 @@ p {
 header nav {
     display: flex;
     align-items: baseline;
+    margin: 3% 0;
 }
 
 .right-nav {
-    padding: 0 4%;
-    margin: 0 12%;
+    padding: 0 2%;
+    margin: 0 2%;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+
+.right-nav a {
+    color: black;
+    text-decoration: none;
 }
 
 .top-banner {
@@ -236,7 +244,7 @@ header nav {
 }
 
 .closing-p {
-    margin: 2%
+    margin: 4% 2%;
 }
 
 footer {
@@ -254,6 +262,6 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: rgb(177, 177, 177);
     text-decoration: none;
 }
