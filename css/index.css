@@ -75,11 +75,11 @@ p {
 header nav {
     display: flex;
     align-items: baseline;
-    margin: 3% 0;
+    margin: 3% 0 4%;
 }
 
 .right-nav {
-    padding: 0 2%;
+    padding: 0 3%;
     margin: 0 2%;
     width: 100%;
     display: flex;
@@ -107,11 +107,11 @@ header nav {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 2% 0;
+    padding: 2%;
 }
 
 .about-p {
     padding: 2%;
-    margin: 2%;
 }
 
 .gallery {
@@ -121,13 +121,14 @@ header nav {
 }
 
 .card {
-    padding: 2%;
+    padding: 1%;
     margin: 2%;
     width: 46%;
 }
 
 .card img {
     max-width: 100%;
+    margin-bottom: 3%;
 }
 
 .card p {
@@ -135,13 +136,15 @@ header nav {
 }
 
 .button {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 2% 6%;
+    padding: 2% 2%;
     margin: 3% 0;
     color: black;
+    width: 35%;
 }
 
 .container .about-p, .card {
